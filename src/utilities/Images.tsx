@@ -1,5 +1,6 @@
 import Logo from "../assets/logo.svg"
 import NavLogo from "../assets/nav-logo.svg"
+import FooterLogo from "../assets/footerLogo.svg"
 import IntroImg from "../assets/intro.svg"
 import IntroBgImg from "../assets/introBg.svg"
 import HowItWorksBg from "../assets/howItWorkBg.svg"
@@ -15,8 +16,10 @@ import downloadSecBg from '../assets/downloadSecBg.svg'
 import appStore from '../assets/appStore.svg'
 import googlePlay from '../assets/googlePlay.svg'
 import advertisement from '../assets/advertisement.svg'
+import aboutUsIntro from '../assets/aboutUsIntro.svg'
+import counterBg from "../assets/counterBg.svg"
 
 
 export { Logo, NavLogo, IntroImg, IntroBgImg, HowItWorksBg, Mobile,
- Rectangle1, Rectangle2, FooterBG, AboutUs, AboutUsBg, cardBg, downloadSecBg, 
- downloadSecImage, googlePlay, appStore, advertisement }
+ Rectangle1, Rectangle2, FooterBG, AboutUs, FooterLogo, AboutUsBg, cardBg, downloadSecBg, 
+ downloadSecImage, googlePlay, appStore, advertisement, aboutUsIntro, counterBg }

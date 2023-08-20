@@ -44,7 +44,7 @@ let Card = (prop: card) => {
     return (
 
         <div className={`flex flex-col relative border-2 px-6 pb-4 rounded-3xl z-50  ${prop.item.bgColor === 'violet' && 'bg-[var(--primary)]'}`} >
-            <img src={cardBg} alt="" className={`absolute left-0 top-0 h-full -z-20 ${prop.item.bgOpacity === true && 'opacity-10'}`} />
+            <img src={cardBg} alt="" className={`absolute left-0 top-0 h-full -z-20 ${prop.item.bgOpacity === true && 'opacity-30'}`} />
             <div className="flex justify-between mt-6 items-center">
                 <h4 className={` text-xl font-bold ${nameColorVar}`}>{prop.item.name}</h4>
                 <h6 className={`font-medium ${prop.item.tagColor === 'gold' ? 'text-[var(--gold)]' : "text-black"} `}>{prop.item.tag}</h6>

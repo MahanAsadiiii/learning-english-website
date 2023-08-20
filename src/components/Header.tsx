@@ -9,9 +9,9 @@ function Header() {
             <nav className='flex justify-between basis-2/5 items-center'>
                 <img src={NavLogo} alt="" />
                 <Link to="/" className='text-base font-normal text-[#363853]'>Home</Link>
+                <Link to="/about-us" className='text-base font-normal text-[#363853]'>About Us</Link>
                 <Link to="" className='text-base font-normal text-[#363853]'>How it Works</Link>
                 <Link to="" className='text-base font-normal text-[#363853]'>Pricing</Link>
-                <Link to="/about-us" className='text-base font-normal text-[#363853]'>About Us</Link>
             </nav>
             <nav className="flex justify-between items-center">
                 <a href="" className='flex text-[#363853]'>Login<LoginCurve className='ml-2'/></a>

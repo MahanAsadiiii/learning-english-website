@@ -1,5 +1,4 @@
-import React from 'react'
-import { FooterBG, NavLogo } from '../utilities/Index'
+import { FooterBG, FooterLogo } from '../utilities/Index'
 import { Youtube, Facebook, Whatsapp, Instagram } from "iconsax-react"
 
 function Footer() {
@@ -8,7 +7,7 @@ function Footer() {
             <img src={FooterBG} alt="" className='absolute w-full left-0 -z-20' />
             <div className='flex flex-col items-center relative'>
                 <div className="my-8 ">
-                    <img src={NavLogo} alt="" width={64} height={64} />
+                    <img src={FooterLogo} alt="" width={64} height={64} />
                 </div>
                 <nav className='flex justify-between basis-4/5'>
                     <a href="" className=' text-base font-normal text-[var(--navy-2)] mx-5'>Home</a>
