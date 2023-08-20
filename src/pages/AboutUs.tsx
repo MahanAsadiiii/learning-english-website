@@ -1,11 +1,12 @@
-import { Layout } from '../components'
-import { AboutUsIntro ,Counters } from '../components/index'
+import { AboutUsIntro ,Counters, OurValue ,CommentSec, Layout  } from '../components/index'
 
 const AboutUs = () => {
   return (
     <Layout>
       <AboutUsIntro />
       <Counters/>
+      <OurValue/>
+      <CommentSec/>
     </Layout>
   )
 }

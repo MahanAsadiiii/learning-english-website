@@ -11,7 +11,7 @@ function AboutUsSec() {
                 <h1 className="text-6xl font-bold ">About us</h1>
                 <p className="text-[#7B8188] text-xl mt-20 mb-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
                 <button className="flex p-5 bg-[#2E3047] rounded-2xl text-white">
-                    <a href="" className='flex'>Read more</a>
+                    <a href="#" className='flex'>Read more</a>
                     <ArrowRight2 />
                 </button>
             </div>

@@ -7,18 +7,6 @@ type card = {
     item: cardElem
 }
 
-// type nameColor = 'black' | 'gold' | 'white'
-// type priceColor = 'black' | 'gold' | 'white'
-// type periodColor = 'gray' | 'white'
-// type btnColor = 'violet' | 'white'
-// type tagColor = 'gold'
-
-// const colorVariant: Record<priceColor, string> = {
-//     black: "text-black",
-//     gold: 'text-[#F2C41F]',
-//     white: 'text-white',
-// }
-
 
 let Card = (prop: card) => {
 
@@ -54,7 +42,7 @@ let Card = (prop: card) => {
                 <span className={`mt-2 text-xl ${prop.item.periodColor === 'gray' ? 'text-[var(--gray-2)]' : 'text-white'}`}>{prop.item.period}</span>
             </div>
             <button className={`px-16 py-4 rounded-2xl mt-8  ${prop.item.btnBorder === true && 'border-2 border-[var(--light-gray)]'} ${prop.item.btnColor === 'violet' ? 'bg-[var(--primary)]' : 'bg-white'} `}>
-                <a href="" className={`text-xl ${contentColor}`}>{prop.item.btnContent}</a>
+                <a href="#" className={`text-xl ${contentColor}`}>{prop.item.btnContent}</a>
             </button>
 
             <div className="mt-4">
@@ -74,7 +62,3 @@ let Card = (prop: card) => {
 
 export { Card }
 
-
-
-
-// style={{backgroundColor:'var(--primary)'

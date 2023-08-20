@@ -18,8 +18,16 @@ import googlePlay from '../assets/googlePlay.svg'
 import advertisement from '../assets/advertisement.svg'
 import aboutUsIntro from '../assets/aboutUsIntro.svg'
 import counterBg from "../assets/counterBg.svg"
+import valueCard1 from "../assets/valuePic1.svg"
+import valueCard2 from "../assets/valuePic2.svg"
+import valueCard3 from "../assets/valuePic3.svg"
+import commentBg from "../assets/commentsBg.svg"
+import ProfilePic from "../assets/profilePic.svg"
 
 
-export { Logo, NavLogo, IntroImg, IntroBgImg, HowItWorksBg, Mobile,
- Rectangle1, Rectangle2, FooterBG, AboutUs, FooterLogo, AboutUsBg, cardBg, downloadSecBg, 
- downloadSecImage, googlePlay, appStore, advertisement, aboutUsIntro, counterBg }
+export {
+    Logo, NavLogo, IntroImg, IntroBgImg, HowItWorksBg, Mobile,
+    Rectangle1, Rectangle2, FooterBG, AboutUs, FooterLogo, AboutUsBg, cardBg, downloadSecBg,
+    downloadSecImage, googlePlay, appStore, advertisement, aboutUsIntro, counterBg, valueCard1,
+    valueCard2, valueCard3, commentBg, ProfilePic
+}

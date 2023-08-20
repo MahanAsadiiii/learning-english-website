@@ -1,5 +1,6 @@
 import { FooterBG, FooterLogo } from '../utilities/Index'
-import { Youtube, Facebook, Whatsapp, Instagram } from "iconsax-react"
+import { SocialMedia } from './index'
+
 
 function Footer() {
     return (
@@ -19,15 +20,10 @@ function Footer() {
             </div>
             <hr className='mt-8 border-[var(--gray-2)]' />
             <div className="flex justify-between mt-6 mb-5">
-                <div className="flex">
-                    <Facebook color='#D6DAE4' variant="Bold" className='mr-5' />
-                    <Youtube color='#5F35F2' variant="Bold" className='mx-5' />
-                    <Whatsapp color='#D6DAE4' variant="Bold" className='mx-5' />
-                    <Instagram color='#D6DAE4' variant="Bold" className='ml-5' />
-                </div>
-                <span className='text-sm  text-[var(--navy-2)]'>© Copyright 2021 by learn english. All rights reserved.</span>
-            </div>
+            <SocialMedia/>
+            <span className='text-sm  text-[var(--navy-2)]'>© Copyright 2021 by learn english. All rights reserved.</span>
         </div>
+        </div >
     )
 }
 
