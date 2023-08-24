@@ -10,7 +10,7 @@ let OurValue = () => {
                 {valueCard.map((item) => {
                     return (
                         <div className="text-center basis-1/4">
-                            <img src={item.image} alt="" className='flex mx-auto' />
+                            <img src={item.image} alt="image" className='flex mx-auto h-60' />
                             <h5 className='text-3xl text-[var(--headers-color)] font-bold my-6 px-auto'>{item.title}</h5>
                             <p className='text-lg text-[var(--headers-color)] px-2'>{item.desc}</p>
                         </div>

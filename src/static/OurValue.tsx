@@ -1,13 +1,13 @@
 import { valueCard1, valueCard2, valueCard3 } from "../utilities/Index"
 
-export type valueCardTypes = {
+export type valueCardType = {
     image: string,
     title: string,
     desc: string
 }
 
 
-export const valueCard: valueCardTypes[] = [
+export const valueCard: valueCardType[] = [
     {
         image: valueCard1 ,
         title: "Learn Languages Online",
