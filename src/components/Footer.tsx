@@ -1,4 +1,4 @@
-import { FooterBG, FooterLogo } from '../utilities/Index'
+import { FooterBG, NavLogo  } from '../utilities/Index'
 import { SocialMedia } from './index'
 
 
@@ -8,7 +8,7 @@ function Footer() {
             <img src={FooterBG} alt="" className='absolute w-full left-0 -z-20' />
             <div className='flex flex-col items-center relative'>
                 <div className="my-8 ">
-                    <img src={FooterLogo} alt="" width={64} height={64} />
+                    <img src={NavLogo} alt="" width={100} />
                 </div>
                 <nav className='flex justify-between basis-4/5'>
                     <a href="" className=' text-base font-normal text-[var(--navy-2)] mx-5'>Home</a>
@@ -19,10 +19,10 @@ function Footer() {
                 </nav>
             </div>
             <hr className='mt-8 border-[var(--gray-2)]' />
-            <div className="flex justify-between mt-6 mb-5">
-            <SocialMedia/>
-            <span className='text-sm  text-[var(--navy-2)]'>© Copyright 2021 by learn english. All rights reserved.</span>
-        </div>
+            <div className="flex items-center justify-between mt-6 mb-5">
+                <SocialMedia />
+                <span className='text-sm  text-[var(--navy-2)]'>© Copyright 2023 Mahan asadi.</span>
+            </div>
         </div >
     )
 }

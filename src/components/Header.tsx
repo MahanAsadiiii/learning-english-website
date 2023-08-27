@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="flex justify-between mt-6">
             <nav className='flex justify-between basis-2/5 items-center'>
-                <img src={NavLogo} alt="" />
+                <img src={NavLogo} width={110} alt="" />
                 <Link to="/" className='text-base font-normal text-[#363853]'>Home</Link>
                 <Link to="/about-us" className='text-base font-normal text-[#363853]'>About Us</Link>
                 <Link to="" className='text-base font-normal text-[#363853]'>How it Works</Link>

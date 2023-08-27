@@ -4,7 +4,7 @@ import { ArrowRight2 } from "iconsax-react"
 
 function AboutUsSec() {
     return (
-        <div className='flex justify-between mt-52'>
+        <div className='flex justify-between mt-72'>
             <img src={AboutUsBg} alt="" className='absolute -z-20 left-0'/>
             <img src={AboutUs} alt="" className='left-0 basis-1/3' />
             <div className="mt-48 basis-3/5 ml-5">

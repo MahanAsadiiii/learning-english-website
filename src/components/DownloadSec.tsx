@@ -1,4 +1,3 @@
-import { GooglePlay } from 'iconsax-react'
 import { downloadSecBg, downloadSecImage, appStore, googlePlay } from '../utilities/Images'
 
 const DownloadSec = () => {

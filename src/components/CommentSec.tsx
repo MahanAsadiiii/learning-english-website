@@ -4,13 +4,14 @@ import { CommentCard, Paginator } from './index'
 import { comments } from "../static/index"
 import { ArrowRight, ArrowLeft } from 'iconsax-react'
 
+
 const CommentSec = () => {
 
 
     const [commentIndex, setCommentIndex] = useState<number>(0)
 
     const nextHandler = () => {
-        const isLastslide = commentIndex === comments.length -1
+        const isLastslide = commentIndex === comments.length - 1
         const newIndex = isLastslide ? 0 : commentIndex + 1
         setTimeout(() => {
             setCommentIndex(newIndex);
@@ -19,12 +20,11 @@ const CommentSec = () => {
 
     const PrevHandler = () => {
         const isFirstSlide = commentIndex === 0;
-        const newIndex = isFirstSlide ? comments.length -1 : commentIndex -1 
+        const newIndex = isFirstSlide ? comments.length - 1 : commentIndex - 1
         setTimeout(() => {
             setCommentIndex(newIndex);
         }, 500);
     }
-
 
 
     return (
@@ -33,8 +33,9 @@ const CommentSec = () => {
             <div className="text-6xl text-[var(--headers-color)] font-bold pt-20 ">Comments of some users</div>
             <div className="bg-white mt-20 pt-20 px-6 pb-5 rounded-[30px] relative shadow-md">
 
-                <CommentCard item={comments[commentIndex]} />
 
+                <CommentCard item={comments[commentIndex]} /> 
+                 
                 <div className="flex items-center justify-between mt-11">
                     <button onClick={PrevHandler} className='flex items-center'>
                         <ArrowLeft size="16" color='var(--gray-2)' />

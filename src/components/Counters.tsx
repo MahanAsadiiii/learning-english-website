@@ -8,8 +8,8 @@ const Counters = () => {
 
 
     return (
-        <div className="flex flex-col mt-8 justify-center">
-            <img src={counterBg} alt="" className="absolute left-0 -z-20 w-full" />
+        <div className="flex flex-col mt-14 justify-center">
+            <img src={counterBg} alt="" className="absolute left-0 -z-20 w-full  " />
             <div className='flex justify-between text-white py-28'>
                 <div className="flex flex-col items-center basis-1/5">
                     <CountUp start={0} end={500} duration={8} prefix="+" className="text-5xl font-bold"/>
