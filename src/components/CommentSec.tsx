@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { commentBg } from "../utilities/Index"
-import { CommentCard, Paginator } from './index'
+import { CommentCard, Paginator, } from './index'
 import { comments } from "../static/index"
 import { ArrowRight, ArrowLeft } from 'iconsax-react'
+
 
 
 const CommentSec = () => {
@@ -32,13 +33,16 @@ const CommentSec = () => {
             <img src={commentBg} alt="" className='absolute left-0 w-full -z-30 ' />
             <div className="text-6xl text-[var(--headers-color)] font-bold pt-20 ">Comments of some users</div>
             <div className="bg-white mt-20 pt-20 px-6 pb-5 rounded-[30px] relative shadow-md">
-
-
-                <CommentCard item={comments[commentIndex]} /> 
-                 
+                <div className="flex">
+                    {comments.map((comment) => {
+                        return (
+                            <CommentCard item={comment} />
+                        )
+                    })}
+                </div>
                 <div className="flex items-center justify-between mt-11">
                     <button onClick={PrevHandler} className='flex items-center'>
-                        <ArrowLeft size="16" color='var(--gray-2)' />
+                        <ArrowLeft size="12" color='var(--gray-2)' />
                         <h6 className='text-[var(--gray-2)] text-sm ml-2'>Previous</h6>
                     </button>
 
@@ -46,7 +50,7 @@ const CommentSec = () => {
 
                     <button onClick={nextHandler} className='flex items-center'>
                         <h6 className='text-[var(--gray-2)] text-sm mr-2'>Next</h6>
-                        <ArrowRight size="16" color='var(--gray-2)' />
+                        <ArrowRight size="12" color='var(--gray-2)' />
                     </button>
                 </div>
             </div>

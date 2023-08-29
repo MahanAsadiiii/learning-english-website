@@ -13,7 +13,7 @@ type propType = {
 const CommentCard = ( prop : propType ) => {
 
     return (
-        <div className="flex basis-full px-20 translate-x-5" key={prop.item.id}>
+        <div className={`flex px-20 translate-x-5 keen-slider__slide number-slide`} key={prop.item.id}>
             <img src={ProfilePic1} alt="" />
             <div className="mx-20">
                 <h4 className='text-3xl text-[var(--headers-color)] mb-4'>{prop.item.name}</h4>
