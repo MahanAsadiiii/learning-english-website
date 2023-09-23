@@ -11,7 +11,7 @@ function Header() {
                 <Link to="/" className='text-base font-normal text-[#363853]'>Home</Link>
                 <Link to="/about-us" className='text-base font-normal text-[#363853]'>About Us</Link>
                 <Link to="" className='text-base font-normal text-[#363853]'>How it Works</Link>
-                <Link to="" className='text-base font-normal text-[#363853]'>Pricing</Link>
+                <Link to="/pricing" className='text-base font-normal text-[#363853]'>Pricing</Link>
             </nav>
             <nav className="flex justify-between items-center">
                 <a href="" className='flex text-[#363853]'>Login<LoginCurve className='ml-2'/></a>

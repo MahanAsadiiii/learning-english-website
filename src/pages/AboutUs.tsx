@@ -1,4 +1,4 @@
-import { AboutUsIntro ,Counters, OurValue ,CommentSec, Layout, SwiperCard } from '../components/index'
+import { AboutUsIntro ,Counters, OurValue , Layout, SwiperCard } from '../components/index'
 
 const AboutUs = () => {
   return (
@@ -6,7 +6,6 @@ const AboutUs = () => {
       <AboutUsIntro />
       <Counters/>
       <OurValue/>
-      {/* <CommentSec/> */}
       <SwiperCard/>
     </Layout>
   )
