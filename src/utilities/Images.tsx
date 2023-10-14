@@ -24,11 +24,12 @@ import valueCard3 from "../assets/valuePic3.svg"
 import commentBg from "../assets/commentsBg.svg"
 import ProfilePic1 from "../assets/profilePic.svg"
 import PricingHeroPic from "../assets/PricingHero.svg"
+import loginPic from "../assets/LoginPage.svg"
 
 
 export {
     Logo, NavLogo, IntroImg, IntroBgImg, HowItWorksBg, Mobile,
     Rectangle1, Rectangle2, FooterBG, AboutUs, FooterLogo, AboutUsBg, cardBg, downloadSecBg,
     downloadSecImage, googlePlay, appStore, advertisement, aboutUsIntro, counterBg, valueCard1,
-    valueCard2, valueCard3, commentBg, ProfilePic1 , PricingHeroPic
+    valueCard2, valueCard3, commentBg, ProfilePic1 , PricingHeroPic, loginPic
 }

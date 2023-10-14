@@ -1,5 +1,5 @@
 // import React from 'react'
-import { Layout, Intro, HowItWorks, AboutUsSec, PackageSec, DownloadSec, Advertisement } from '../components'
+import { Layout, Intro, HowItWorks, AboutUsSec, PackageSec, DownloadSec, Advertisement } from '../components/index'
 
 const Home = () => {
     return (

@@ -7,7 +7,7 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
     return (
-        <div className='mx-20'>
+        <div className='mx-auto px-20 max-w-[1440px]'>
             <Header />
             {children}
             <Footer />
